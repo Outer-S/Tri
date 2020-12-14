@@ -1,2 +1,2 @@
-A Web Project/§§§§
+A Web Project
 
