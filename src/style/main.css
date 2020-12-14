@@ -301,4 +301,57 @@ body {
   border-radius: 50%;
   cursor: pointer;
 }
+
+.Discover {
+  position: absolute;
+  top: 94vh;
+  width: 100%;
+  height: 30vh;
+  background: white;
+}
+
+.Discover h1 {
+  position: relative;
+  font-size: 2.3vw;
+  margin-top: 1vh;
+  margin-left: 2vw;
+}
+
+.Discover h1 span {
+  font-size: 1.5vw;
+}
+
+.Discover ul {
+  margin-top: 4vh;
+  height: 30vh;
+  width: 98vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.Discover ul li {
+  height: 30vh;
+  width: auto;
+  margin-left: 4vw;
+  text-align: center;
+  background: blueviolet;
+}
+
+.Discover ul li img {
+  width: 15vw;
+  height: 20vh;
+}
+
+.Discover ul li p {
+  position: relative;
+  font-weight: bold;
+  font-size: 1.3vw;
+  line-height: 5vh;
+  margin-top: 2vh;
+}
 /*# sourceMappingURL=main.css.map */
