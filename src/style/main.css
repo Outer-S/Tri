@@ -237,7 +237,7 @@ body {
   position: absolute;
   top: 20vh;
   left: 20%;
-  z-index: -100;
+  z-index: 100;
   height: 8vh;
   width: 60vw;
   background: white;
@@ -367,7 +367,7 @@ body {
   width: 100%;
   height: 120vh;
   position: absolute;
-  top: 150vh;
+  top: 155vh;
   overflow: hidden;
 }
 
@@ -380,7 +380,7 @@ body {
 
 .carousel {
   position: relative;
-  width: 100%;
+  width: 190vw;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -389,26 +389,36 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-transform: translateX(-30%);
+          transform: translateX(-30%);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .slide {
+  position: relative;
+  left: 2vw;
   background: gray;
-  width: 25vw;
-  height: 80vh;
-  margin: 10vh 4vw;
+  width: 20vw;
+  height: 75vh;
+  margin: 10vh 0;
 }
 
 .slide-content {
   position: relative;
   width: 100%;
-  padding: 5vh 3vw 5vh 3vw;
+  padding: 5vh 0vw 5vh 0vw;
 }
 
 .slide-content h1 {
   position: relative;
   top: -2vw;
+  left: 1vw;
   text-align: left;
   margin-bottom: 2vh;
+  font-size: 2vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -430,8 +440,25 @@ body {
 
 .slide-content img {
   position: relative;
-  right: 3vw;
-  width: 25vw;
-  height: 38vw;
+  width: 20vw;
+  height: 35vw;
+}
+
+.Button-Slider {
+  position: absolute;
+  top: 50vh;
+  height: 5vw;
+  width: 5vw;
+  border-radius: 50%;
+  background: black;
+  cursor: pointer;
+}
+
+#Next {
+  right: 0;
+}
+
+#Previous {
+  left: 0;
 }
 /*# sourceMappingURL=main.css.map */
