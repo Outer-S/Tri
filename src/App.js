@@ -1,5 +1,6 @@
 import { NavigationBar } from "./components/navigation";
 import Discover from './components/Discover';
+import Popular from './components/Popular';
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <NavigationBar/>
       <Discover />
+      <Popular/>
 
     </div>
   );
