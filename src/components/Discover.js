@@ -1,31 +1,33 @@
 import React from 'react';
-import Logo from '../resources/background.jpg';
+import secure_payement from '../resources/icon_secure_payement.png';
+import customer_service from '../resources/icon_customer_service.png';
+import track_order from '../resources/icon_track_order.png';
+import icon_satisfaction from '../resources/icon_satisfaction.png';
+
+
+
 
 export default function Discover() {
     return (
         <div className="Discover">
-            <h1>Discover Our Services and Products <span><a href="/">Learn more</a></span> </h1>
+            <span><a href="/"><h1>DISCOVER OUR PRODUCTS AND SERVICES</h1></a></span>
             
             <ul>
                 <li>
-                    <img src={Logo} alt=""/>
-                    <p>Ships to Your Address </p>
+                    <img src={customer_service} alt=""/>
+                    <p>CUSTOMER SERVICE</p>
                 </li>
                 <li>
-                    <img src={Logo} alt=""/>
-                    <p>Secure Payment</p>
+                    <img src={secure_payement} alt=""/>
+                    <p>SECURE PAYEMENT</p>
                 </li>
                 <li>
-                    <img src={Logo} alt=""/>
-                    <p>Customer Service</p>
+                    <img src={track_order} alt=""/>
+                    <p>TRACK YOUR ORDER</p>
                 </li>
                 <li>
-                    <img src={Logo} alt=""/>
-                    <p>Fair Pricing</p>
-                </li>
-                <li>
-                    <img src={Logo} alt=""/>
-                    <p>Secured Guarantee</p>
+                    <img src={icon_satisfaction} alt=""/>
+                    <p>100% SATISFACTION</p>
                 </li>
 
             </ul>
