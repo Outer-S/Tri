@@ -193,7 +193,7 @@
   position: absolute;
   top: 20vh;
   left: 20%;
-  z-index: -100;
+  z-index: 100;
 
   height: 8vh;
   width: 60vw;
@@ -246,6 +246,7 @@
       background: #ff8438;
       border: 0.1vw #ff8438;
       border-radius: 50%;
+      
       cursor: pointer;
     }
   }
