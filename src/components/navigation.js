@@ -29,6 +29,7 @@ export class NavigationBar extends React.Component
     {
         return (
         <div className = "Home">  
+            
             <div className = "Navigation">
 
                 <div className = "Logo">
@@ -66,7 +67,8 @@ export class NavigationBar extends React.Component
             </div>
 
             <div className = "Main">
-                <img className = "imgBackground" src = {Background} alt = "Background"/>
+            <img className = "imgBackground" src = {Background} alt = "Background"/>
+
 
                 <div className="Recherch">
                     <ul>
@@ -80,7 +82,7 @@ export class NavigationBar extends React.Component
                 
                 <div className="Slogan">
                 <h1><span id='First'>Find <span id='coloring'>Whatever</span></span> <span id='Second'>You need </span> </h1>
-                <h2>A bridge between <span>YOU</span> and what <span>YOU WANT</span></h2>
+                <h2>A BRIDGE BETWEEN <span>YOU</span> AND WHAT <span>YOU WANT</span></h2>
                 </div>
 
                 

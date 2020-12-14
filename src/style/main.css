@@ -215,7 +215,7 @@ body {
 }
 
 .Slogan h2 {
-  font-family: Helvetica, sans-serif;
+  font-family: sans-serif;
   position: relative;
   font-size: 2.5vh;
   top: 1vh;
@@ -230,14 +230,14 @@ body {
   color: white;
   text-transform: capitalize;
   left: 3%;
-  font-size: 2vw;
+  font-size: 1.45vw;
 }
 
 .Recherch {
   position: absolute;
   top: 20vh;
   left: 20%;
-  z-index: 100;
+  z-index: -50;
   height: 8vh;
   width: 60vw;
   background: white;
@@ -271,7 +271,7 @@ body {
   border-right: 0.1vw solid lightgray;
   font-family: sans-serif;
   font-weight: bold;
-  color: #4b4a4a;
+  color: #2b2b2b;
   background: white;
   width: 15vw;
   font-size: 1vw;
@@ -283,19 +283,19 @@ body {
 
 .Recherch ul img {
   position: absolute;
-  top: 1.4vh;
-  left: 0.8vw;
-  width: 2vw;
-  height: 2vw;
+  top: 1.3vh;
+  left: 0.65vw;
+  width: 1.7vw;
+  height: 1.7vw;
 }
 
 .Recherch ul #Rech-img {
   position: absolute;
   z-index: 100;
-  top: -2.1vw;
+  top: -1.85vw;
   right: -2.3vw;
-  width: 3.5vw;
-  height: 3.5vw;
+  width: 3vw;
+  height: 3vw;
   background: #ff8438;
   border: 0.1vw #ff8438;
   border-radius: 50%;
@@ -312,11 +312,11 @@ body {
 
 .Discover h1 {
   font-family: Arial, Helvetica, sans-serif;
-  color: #1e1e1e;
+  color: #292929;
   position: relative;
-  font-size: 2.3vw;
-  margin-top: 2.8vh;
-  margin-left: 12.8vw;
+  font-size: 3.7vw;
+  margin-top: 2.5vh;
+  margin-left: 7.3vw;
 }
 
 .Discover h1 span {
@@ -367,18 +367,25 @@ body {
   width: 100%;
   height: 120vh;
   position: absolute;
-  top: 155vh;
+  top: 150vh;
   overflow: hidden;
+  background-image: url("../resources/pop_srv_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #header {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #404040;
+  top: 18vh;
   position: relative;
-  left: 2vw;
+  left: 8.2vw;
   font-size: 4vw;
   text-transform: uppercase;
 }
 
 .carousel {
+  top: 14vh;
   position: relative;
   width: 190vw;
   height: 100%;
@@ -399,14 +406,18 @@ body {
 
 .slide {
   position: relative;
-  left: 2vw;
-  background: gray;
-  width: 20vw;
+  left: 2.7vw;
+  background: white;
+  width: 21vw;
   height: 75vh;
   margin: 10vh 0;
+  -webkit-box-shadow: 0.2px 1px 3px lightgray;
+          box-shadow: 0.2px 1px 3px lightgray;
+  border-radius: 1vh;
 }
 
 .slide-content {
+  font-family: sans-serif;
   position: relative;
   width: 100%;
   padding: 5vh 0vw 5vh 0vw;
@@ -414,11 +425,13 @@ body {
 
 .slide-content h1 {
   position: relative;
-  top: -2vw;
+  top: -1.5vw;
   left: 1vw;
+  color: #424141;
+  font-weight: lighter;
   text-align: left;
-  margin-bottom: 2vh;
-  font-size: 2vw;
+  margin-bottom: 0.4vh;
+  font-size: 1vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -427,38 +440,63 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   text-transform: capitalize;
-  font-weight: normal;
 }
 
 .slide-content h1 span {
+  color: #272727;
+  font-size: 2vw;
   position: relative;
   text-align: left;
   text-transform: uppercase;
-  top: 1vw;
+  top: 0.2vw;
   font-weight: bold;
 }
 
 .slide-content img {
   position: relative;
-  width: 20vw;
-  height: 35vw;
+  width: 21vw;
+  height: 34.8vw;
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+  -webkit-box-shadow: 0.2px 5px 10px lightslategrey;
+          box-shadow: 0.2px 5px 10px lightslategrey;
 }
 
 .Button-Slider {
   position: absolute;
   top: 50vh;
-  height: 5vw;
-  width: 5vw;
+  height: 4vw;
+  width: 4vw;
   border-radius: 50%;
-  background: black;
+  background: white;
   cursor: pointer;
 }
 
 #Next {
-  right: 0;
+  -webkit-box-shadow: 0.5px 1px 2px lightslategrey;
+          box-shadow: 0.5px 1px 2px lightslategrey;
+  top: 65vh;
+  right: 2.9vh;
+}
+
+#Next img {
+  margin-top: 2.2vh;
+  margin-left: 1vw;
+  height: 3vh;
+  width: 2vw;
 }
 
 #Previous {
-  left: 0;
+  -webkit-box-shadow: 0.5px 1px 2px lightslategrey;
+          box-shadow: 0.5px 1px 2px lightslategrey;
+  top: 65vh;
+  left: 2vw;
+}
+
+#Previous img {
+  margin-top: 2.2vh;
+  margin-left: 1vw;
+  height: 3vh;
+  width: 2vw;
 }
 /*# sourceMappingURL=main.css.map */

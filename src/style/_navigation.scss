@@ -170,7 +170,7 @@
     }
   }
   h2 {
-    font-family: Helvetica, sans-serif;
+    font-family: sans-serif;
     position: relative;
     font-size: 2.5vh;
     top: 1vh;
@@ -184,7 +184,7 @@
       color: white;
       text-transform: capitalize;
       left: 3%;
-      font-size: 2vw;
+      font-size: 1.45vw;
     }
   }
 }
@@ -193,7 +193,7 @@
   position: absolute;
   top: 20vh;
   left: 20%;
-  z-index: 100;
+  z-index: -50;
 
   height: 8vh;
   width: 60vw;
@@ -220,7 +220,7 @@
       border-right: 0.1vw solid lightgray;
       font-family: sans-serif;
       font-weight: bold;
-      color: #4b4a4a;
+      color: #2b2b2b;
       background: white;
       width: 15vw;
       font-size: 1vw;
@@ -231,22 +231,22 @@
     }
     img {
       position: absolute;
-      top: 1.4vh;
-      left: 0.8vw;
-      width: 2vw;
-      height: 2vw;
+      top: 1.3vh;
+      left: 0.65vw;
+      width: 1.7vw;
+      height: 1.7vw;
     }
     #Rech-img {
       position: absolute;
       z-index: 100;
-      top: -2.1vw;
+      top: -1.85vw;
       right: -2.3vw;
-      width: 3.5vw;
-      height: 3.5vw;
+      width: 3vw;
+      height: 3vw;
       background: #ff8438;
       border: 0.1vw #ff8438;
       border-radius: 50%;
-      
+
       cursor: pointer;
     }
   }
