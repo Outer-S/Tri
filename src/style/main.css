@@ -1,0 +1,304 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.Home {
+  position: relative;
+  width: 100%;
+  height: 20vh;
+}
+
+.Navigation {
+  width: 100%;
+  position: relative;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: none;
+}
+
+.Navigation .Logo .imgLogo {
+  width: 6vw;
+  height: 5vh;
+  margin: 3vh 0 0 6vw;
+  cursor: pointer;
+}
+
+.Navigation .Login .imgLogin {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 7vw;
+  height: 6.8vh;
+  margin: 3vh 6vw 0 0;
+  cursor: pointer;
+}
+
+.Navigation .userLogin {
+  display: block;
+}
+
+.imgBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  width: 100%;
+  height: 100vh;
+}
+
+.userLogin {
+  display: none;
+  position: absolute;
+  top: 10vh;
+  right: 6.6vw;
+  height: 60vh;
+  width: 26vw;
+  border-radius: 2vw;
+  background: white;
+  -webkit-box-shadow: 0.1px 0.5px 5px lightslategrey;
+          box-shadow: 0.1px 0.5px 5px lightslategrey;
+}
+
+.userLogin h1 {
+  text-align: center;
+  margin: 7% 0% 6% 0%;
+  -webkit-text-decoration: darkgray;
+          text-decoration: darkgray;
+  font-size: 2.4vw;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.userLogin form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.userLogin form label {
+  font-family: Helvetica, sans-serif;
+  margin: 2% 0% -1% 10%;
+  font-size: 1.1vw;
+}
+
+.userLogin form input {
+  top: 0.5vh;
+  font-family: Helvetica, sans-serif;
+  position: relative;
+  border-style: none;
+  border-radius: 2vw;
+  background-color: #f6f0ec;
+  outline-width: 0;
+  margin-top: 1%;
+  width: 87%;
+  height: 6vh;
+  left: 6%;
+  -webkit-padding-start: 1.9vh;
+          padding-inline-start: 1.9vh;
+  -webkit-padding-end: 1.9vh;
+          padding-inline-end: 1.9vh;
+}
+
+.userLogin form .forgot {
+  position: relative;
+  padding: 0 0 0 14vw;
+}
+
+.userLogin form .Remember {
+  display: inline-block;
+}
+
+.userLogin form .Remember #remember {
+  display: inline-block;
+  height: 2.8vh;
+  width: 2.8vw;
+  top: 0.5vh;
+  left: 2.6vw;
+  cursor: pointer;
+}
+
+.userLogin form .Remember #font_remember {
+  position: relative;
+  font-weight: normal;
+  font-size: 1.9vh;
+  left: -0.2vw;
+}
+
+.userLogin form #Submit {
+  font-family: Helvetica, sans-serif;
+  color: white;
+  background: #ff8438;
+  top: 2.1vh;
+  left: 14%;
+  width: 70%;
+  height: 6.5vh;
+  font-size: 1vw;
+  cursor: pointer;
+}
+
+.userLogin form h4 {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: small;
+  padding: 1.7vh 0 0 5.6vw;
+}
+
+.userLogin form h4 a {
+  color: blue;
+}
+
+.Slogan {
+  position: absolute;
+  top: 57vh;
+  left: 7%;
+  height: 30vh;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Slogan h1 {
+  font-family: open sans;
+  font-size: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+
+.Slogan h1 #coloring {
+  color: #ff8438;
+  position: relative;
+}
+
+.Slogan h1 #First {
+  position: relative;
+  margin-bottom: -1.5%;
+  left: 5%;
+}
+
+.Slogan h1 #Second {
+  position: relative;
+  left: 5%;
+}
+
+.Slogan h2 {
+  font-family: Helvetica, sans-serif;
+  position: relative;
+  font-size: 2.5vh;
+  top: 1vh;
+  left: 5%;
+  color: white;
+  font-weight: lighter;
+}
+
+.Slogan h2 span {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  text-transform: capitalize;
+  left: 3%;
+  font-size: 2vw;
+}
+
+.Recherch {
+  position: absolute;
+  top: 20vh;
+  left: 20%;
+  z-index: -100;
+  height: 8vh;
+  width: 60vw;
+  background: white;
+  border: 0.1vh solid white;
+  border-radius: 10vh;
+  -webkit-box-shadow: 0.2px 0.5px 3px grey;
+          box-shadow: 0.2px 0.5px 3px grey;
+}
+
+.Recherch ul {
+  position: relative;
+  top: 7vh;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 55vw;
+  height: 5vh;
+  font-weight: bold;
+  margin: 0 2vw;
+}
+
+.Recherch ul li {
+  position: relative;
+  top: -3.4vh;
+  border-right: 0.1vw solid lightgray;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #4b4a4a;
+  background: white;
+  width: 15vw;
+  font-size: 1vw;
+  height: 5vh;
+  text-align: center;
+  line-height: 6vh;
+  cursor: pointer;
+}
+
+.Recherch ul img {
+  position: absolute;
+  top: 1.4vh;
+  left: 0.8vw;
+  width: 2vw;
+  height: 2vw;
+}
+
+.Recherch ul #Rech-img {
+  position: absolute;
+  z-index: 100;
+  top: -2.1vw;
+  right: -2.3vw;
+  width: 3.5vw;
+  height: 3.5vw;
+  background: #ff8438;
+  border: 0.1vw #ff8438;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
