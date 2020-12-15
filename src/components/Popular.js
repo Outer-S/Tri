@@ -15,23 +15,19 @@ import img_illustration from '../resources/img_illustration.jpg';
 export default function Popular() {
     const [x,setX]=useState(0); 
     const handleNext=()=>{
-          if(x<0){
-          setX(x+34);
-          }else{
-              setX(-50);
-          }
+          
+        x<150? setX(x+32): setX(0);
+          
      }
      const handlePrev=()=>{
-          if(x>-50){
-               setX(x-34);
-           }else{
-               setX(0);
-          }
+         
+        x>0?setX(x-32):setX(95);
+          
      } 
     return (
         <div className="popular">
            <h1 id='header'>Most Popular Services</h1>
-           <div className="carousel" style={{transform:`translateX(${x}%)`}}>
+           <div className="carousel" style={{transform:`translateX(${-x}vw)`}}>
                 <div className='slide'>
                     <div className="slide-content">
                     <h1>Build your brand<span>LOGO DESIGN</span> </h1>
