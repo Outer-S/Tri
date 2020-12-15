@@ -620,6 +620,7 @@ body {
   position: relative;
   font-size: 1.2vw;
   margin: 0;
+  cursor: pointer;
 }
 
 .Social-Media {
